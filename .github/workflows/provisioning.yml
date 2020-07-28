@@ -1,8 +1,6 @@
 name: Provisioning
 
-on:
-  schedule:
-    - cron: '0 0 1 * *'
+on: [push]
 
 jobs:
   create:
