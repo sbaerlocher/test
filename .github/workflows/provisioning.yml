@@ -23,7 +23,7 @@ jobs:
         with:
           repository: maschin/collection.git
           path: template/ansible
-          ref: master
+      #     ref: master
 
       - name: Date
         id: date
